@@ -1,159 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yash Rastogi | Resume</title>
+
+<title>Yash Rastogi Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
-<body style="font-family: Arial, sans-serif; margin:0; background:#f4f6f9;">
+<body>
 
-<!-- HEADER -->
-<header style="background:#0f172a; color:white; padding:40px; text-align:center;">
-    <img src="yashpfp.jpg" alt="Profile Photo" width="150" height="150" style="border-radius:50%; border:4px solid white;">
-    
-    <h1>Yash Rastogi</h1>
-    <h3>Full Stack Developer | MERN | SEO Specialist</h3>
+<header>
 
-    <p>
-        📧 rastogi21yr@gmail.com |
-        📞 +91-7417069839 |
-        <a href="https://linkedin.com/in/yash-rastogi-4037152a5" style="color:#38bdf8;">LinkedIn</a>
-    </p>
+<nav class="navbar">
+
+<h2 class="logo">YR</h2>
+
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button id="themeToggle">🌙</button>
+
+</nav>
+
+<div class="hero">
+
+<h1>Hi, I'm <span>Yash Rastogi</span></h1>
+
+<p>Full Stack Developer | MERN Stack | SEO Specialist</p>
+
+<a href="#projects" class="btn">View My Work</a>
+
+</div>
+
 </header>
 
-<!-- ABOUT -->
-<section style="padding:40px;">
+<section id="about" class="section">
+
 <h2>About Me</h2>
+
 <p>
-Creative thinker with a passion for developing modern web applications.
-Experienced in building SEO-friendly websites and full stack MERN projects.
-I enjoy solving real-world problems through technology and creating impactful
-digital solutions.
+Creative thinker passionate about building modern web applications.  
+Experienced in MERN stack development, SEO-friendly websites, and machine learning projects.
 </p>
+
 </section>
 
-<!-- SKILLS -->
-<section style="padding:40px; background:#e2e8f0;">
+<section id="skills" class="section">
+
 <h2>Skills</h2>
 
-<h3>Programming</h3>
-<ul>
-<li>Data Structures & Algorithms</li>
-<li>OOPs</li>
-<li>DBMS</li>
-</ul>
+<div class="skill">
 
-<h3>Languages</h3>
-<ul>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>JavaScript</li>
-<li>Python</li>
-<li>C</li>
-<li>Java (Basic)</li>
-<li>PHP</li>
-<li>MySQL</li>
-</ul>
+<p>HTML / CSS</p>
+<div class="bar"><span style="width:95%"></span></div>
 
-<h3>Frameworks & Tools</h3>
-<ul>
-<li>ReactJS</li>
-<li>Node.js</li>
-<li>MongoDB</li>
-<li>Mongoose</li>
-<li>Tailwind CSS</li>
-<li>Bootstrap</li>
-<li>Firebase</li>
-<li>Git & GitHub</li>
-<li>WordPress</li>
-</ul>
+</div>
+
+<div class="skill">
+
+<p>JavaScript</p>
+<div class="bar"><span style="width:90%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>React / Node</p>
+<div class="bar"><span style="width:85%"></span></div>
+
+</div>
+
+<div class="skill">
+
+<p>MongoDB</p>
+<div class="bar"><span style="width:80%"></span></div>
+
+</div>
 
 </section>
 
-<!-- PROJECTS -->
-<section style="padding:40px;">
+<section id="projects" class="section">
+
 <h2>Projects</h2>
 
+<div class="project-container">
+
+<div class="project-card">
+
 <h3>
-<a href="https://samadhaan.great-site.net/index.html?i=1">
-Samadhaan – Grievance Management System
+<a href="https://samadhaan.great-site.net/index.html?i=1" 
+target="_blank" 
+class="project-link">
+SAMADHAAN
 </a>
 </h3>
-<p>
-AI assisted grievance platform with database integration and chatbot support.
-</p>
 
-<h3>Churn Prediction Web App</h3>
-<p>
-Machine learning web application that predicts customer churn based on data.
-</p>
+<p>Grievance management system with AI chatbot and database integration.</p>
 
+</div>
+
+<div class="project-card">
+<h3>Churn Prediction WebApp</h3>
+<p>Machine learning web application predicting customer churn.</p>
+</div>
+
+<div class="project-card">
 <h3>Tails of Hope</h3>
-<p>
-Pet adoption platform backend with database management.
-</p>
+<p>Pet adoption platform with backend database management.</p>
+</div>
 
+<div class="project-card">
 <h3>AI ChatGPT App</h3>
-<p>
-AI chatbot application built for better user interaction.
-</p>
+<p>AI chatbot application improving user interaction.</p>
+</div>
+
+</div>
 
 </section>
 
-<!-- EDUCATION -->
-<section style="padding:40px; background:#e2e8f0;">
-<h2>Education</h2>
+<section id="experience" class="section">
 
-<p>
-<b>B.Tech – Computer Science & Design</b><br>
-IMS Engineering College, Ghaziabad<br>
-2023 – 2027 | CGPA: 7.54
-</p>
-
-<p>
-<b>Intermediate</b><br>
-KCM School, Moradabad | 2022–23
-</p>
-
-<p>
-<b>High School</b><br>
-KCM School, Moradabad | 2020–21
-</p>
-
-</section>
-
-<!-- EXPERIENCE -->
-<section style="padding:40px;">
 <h2>Experience</h2>
 
-<p>
-<b>Vice President</b><br>
-Language Legacy Club<br>
-IMS Engineering College, Ghaziabad<br>
-September 2025 – Present
-</p>
+<div class="experience-card">
+
+<h3>Vice President</h3>
+
+<p>Language Legacy Club</p>
+
+<p>IMS Engineering College • 2025 – Present</p>
+
+</div>
 
 </section>
 
-<!-- CERTIFICATIONS -->
-<section style="padding:40px; background:#e2e8f0;">
-<h2>Certifications</h2>
+<section id="contact" class="section">
 
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Git & GitHub</li>
-<li>Node.js</li>
-</ul>
+<h2>Contact</h2>
+
+<p>Email: rastogi21yr@gmail.com</p>
+
+<p>Phone: +91-7417069839</p>
+
+<p>LinkedIn: <a href="https://www.linkedin.com/in/yash-rastogi-4037152a5/"> yash-rastogi</a></p>
 
 </section>
 
-<!-- FOOTER -->
-<footer style="background:#0f172a; color:white; text-align:center; padding:20px;">
-<p>© 2026 Yash Rastogi | Resume Website</p>
+<footer>
+
+<p>© 2026 Yash Rastogi | Portfolio</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
